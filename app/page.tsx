@@ -384,7 +384,6 @@ export default function Home() {
             <div className="profile-step">
               <p className="step-kicker">Bước chuẩn bị</p>
               <h3>Cho HTG biết một chút về bạn</h3>
-              <p className="step-description">Thông tin giúp cá nhân hóa kết quả và được lưu trong Google Sheet quản lý khách hàng của HTG để đội ngũ trợ lý hỗ trợ khi cần.</p>
               <div className="field-grid">
                 <label><span>Họ và tên *</span><input value={profile.name} onChange={(event) => updateProfile("name", event.target.value)} placeholder="Nguyễn Văn A" autoComplete="name" /></label>
                 <label><span>Số điện thoại / Zalo *</span><input value={profile.phone} onChange={(event) => updateProfile("phone", event.target.value)} placeholder="0912 345 678" inputMode="tel" autoComplete="tel" /></label>
@@ -469,7 +468,7 @@ export default function Home() {
       </section>
 
       <section className="expert-section" id="chuyen-gia" aria-labelledby="expert-name">
-        <div className="expert-photo"><img src="https://taitranhtg.vercel.app/img/tai-tran-story.jpg" alt="Tài Trần trong không gian làm việc" loading="lazy" /></div>
+        <div className="expert-photo"><img src="/taiTranPro.png" alt="Tài Trần trong không gian làm việc" width="2560" height="1706" loading="lazy" decoding="async" /></div>
         <div className="expert-copy"><p className="eyebrow light"><span /> Đồng hành cùng chuyên gia</p><h2 id="expert-name">Tài Trần</h2><p className="expert-role">Nhà sáng lập HTG Investments</p><blockquote>“Rủi ro không nằm ở biến động giá. Rủi ro lớn nhất là sở hữu một danh mục không phù hợp với mục tiêu và khả năng chịu đựng của chính mình.”</blockquote><div className="expert-stats"><span><b>8+</b>Năm kinh nghiệm</span><span><b>3.000+</b>Nhà đầu tư đồng hành</span><span><b>24h</b>Thời gian phản hồi</span></div><div className="expert-links"><a className="text-link" href={ZALO_HAI_ANH} target="_blank" rel="noreferrer">Trợ lý Hải Anh <span>↗</span></a><a className="text-link" href={ZALO_MINH_HAI} target="_blank" rel="noreferrer">Trợ lý Minh Hải <span>↗</span></a></div></div>
       </section>
 
