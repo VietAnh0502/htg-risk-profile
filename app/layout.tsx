@@ -15,11 +15,16 @@ export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = `${protocol}://${host}`;
   const title = "Hồ Sơ Rủi Ro Đầu Tư | Tài Trần HTG";
   const description = "Chẩn đoán khẩu vị rủi ro và nhận chiến lược đầu tư cá nhân hóa cùng Tài Trần HTG.";
-  const socialImage = `${baseUrl}/og.png`;
+  const socialImage = `${baseUrl}/thumbnail_preview.png`;
 
   return {
     title,
     description,
+    icons: {
+      icon: [{ url: "/newLogoHTG.jpg", type: "image/jpeg" }],
+      shortcut: "/newLogoHTG.jpg",
+      apple: [{ url: "/newLogoHTG.jpg", type: "image/jpeg" }],
+    },
     openGraph: {
       title,
       description,
@@ -27,7 +32,7 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: "vi_VN",
       url: baseUrl,
       siteName: "HTG Investment",
-      images: [{ url: socialImage, width: 1734, height: 907, alt: "Hồ sơ rủi ro đầu tư Tài Trần HTG" }],
+      images: [{ url: socialImage, width: 1536, height: 1024, alt: "Hồ sơ rủi ro đầu tư Tài Trần HTG" }],
     },
     twitter: { card: "summary_large_image", title, description, images: [socialImage] },
   };
