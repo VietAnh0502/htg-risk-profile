@@ -10,7 +10,7 @@ const manrope = Manrope({
 const siteUrl = new URL("https://htg-risk-profile.vercel.app/");
 const title = "Hồ Sơ Rủi Ro Đầu Tư | Tài Trần HTG";
 const description = "Chẩn đoán khẩu vị rủi ro và nhận chiến lược đầu tư cá nhân hóa cùng Tài Trần HTG.";
-const socialImage = new URL("/thumbnail_preview.png", siteUrl).toString();
+const socialImage = new URL("/thumbnail-preview-v2.jpg", siteUrl).toString();
 const logo = new URL("/newLogoHTG.jpg", siteUrl).toString();
 
 export const metadata: Metadata = {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     locale: "vi_VN",
     url: siteUrl,
     siteName: "HTG Investment",
-    images: [{ url: socialImage, width: 1536, height: 1024, alt: "Hồ sơ rủi ro đầu tư Tài Trần HTG" }],
+    images: [{ url: socialImage, width: 1200, height: 630, alt: "Hồ sơ rủi ro đầu tư Tài Trần HTG" }],
   },
   twitter: { card: "summary_large_image", title, description, images: [socialImage] },
 };
