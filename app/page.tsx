@@ -468,7 +468,7 @@ export default function Home() {
       </section>
 
       <section className="expert-section" id="chuyen-gia" aria-labelledby="expert-name">
-        <div className="expert-photo"><img src="/taiTranPro.png" alt="Tài Trần trong không gian làm việc" width="2560" height="1706" loading="lazy" decoding="async" /></div>
+        <div className="expert-photo"><img src="/nguyen-duc-tai-working-transparent.png" alt="Tài Trần trong không gian làm việc" width="5000" height="3213" loading="lazy" decoding="async" /></div>
         <div className="expert-copy"><p className="eyebrow light"><span /> Đồng hành cùng chuyên gia</p><h2 id="expert-name">Tài Trần</h2><p className="expert-role">Nhà sáng lập HTG Investments</p><blockquote>“Rủi ro không nằm ở biến động giá. Rủi ro lớn nhất là sở hữu một danh mục không phù hợp với mục tiêu và khả năng chịu đựng của chính mình.”</blockquote><div className="expert-stats"><span><b>8+</b>Năm kinh nghiệm</span><span><b>3.000+</b>Nhà đầu tư đồng hành</span><span><b>24h</b>Thời gian phản hồi</span></div><div className="expert-links"><a className="text-link" href={ZALO_HAI_ANH} target="_blank" rel="noreferrer">Trợ lý Hải Anh <span>↗</span></a><a className="text-link" href={ZALO_MINH_HAI} target="_blank" rel="noreferrer">Trợ lý Minh Hải <span>↗</span></a></div></div>
       </section>
 
