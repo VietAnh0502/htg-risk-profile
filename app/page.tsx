@@ -344,25 +344,7 @@ export default function Home() {
         <button className="nav-cta" type="button" onClick={scrollToAssessment}>Bắt đầu chẩn đoán</button>
       </nav>
 
-      <section className="hero" id="top">
-        <div className="hero-copy">
-          <p className="eyebrow light"><span /> Hệ thống đầu tư tỉnh thức HTG</p>
-          <h1>HỒ SƠ<br /><em>RỦI RO</em></h1>
-          <p className="hero-lead">Hiểu đúng giới hạn của bản thân trước khi tìm kiếm lợi nhuận trên thị trường.</p>
-          <p className="hero-subcopy">12 câu hỏi giúp nhận diện khẩu vị rủi ro, hành vi giao dịch và cấu trúc danh mục phù hợp với chính bạn.</p>
-          <div className="hero-actions">
-            <button className="primary-button" type="button" onClick={scrollToAssessment}>Chẩn đoán rủi ro ngay <span aria-hidden="true">↗</span></button>
-          </div>
-          <div className="trust-row" aria-label="Cam kết dịch vụ">
-            <span>✓ Bảo mật thông tin</span><span>✓ Kết quả cá nhân hóa</span><span>✓ Không cam kết lợi nhuận</span>
-          </div>
-        </div>
-
-        <div className="hero-portrait" aria-label="Tài Trần HTG">
-          <img src="https://taitranhtg.vercel.app/img/tai-tran-hero.jpg" alt="Tài Trần HTG" />
-          <div className="hero-portrait-meta"><span>01</span><p>HTG<br />RISK PROFILE</p><b>12 CÂU HỎI</b></div>
-        </div>
-      </section>
+      
 
       <section className="assessment-section" id="assessment" ref={assessmentRef} aria-labelledby="assessment-title">
         <div className="assessment-intro">
